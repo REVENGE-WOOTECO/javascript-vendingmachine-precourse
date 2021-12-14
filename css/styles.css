@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Yellowtail&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/header.css";
+
+/* Screens */
+@import "screens/productAddMenu.css";
+@import "screens/chargeMenu.css";
+@import "screens/purchaseMenu.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 30px 30px;
+  background: var(--background-color-1);
+}
+th,
+tr,
+td {
+  width: 100px;
+  padding: 10px 0;
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+}
+th {
+  background-color: tomato;
+}
+th {
+  font-weight: 700;
+}
+input {
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+button {
+  min-width: 80px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: yellow;
+}

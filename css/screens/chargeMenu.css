@@ -1,0 +1,12 @@
+#vending-machine-charge-title,
+#product-purchase-title,
+#vending-machine-coin-title {
+  margin: 30px 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+#vending-machine-charge-amount-label,
+#vending-machine-charge-amount {
+  font-size: 16px;
+  font-weight: 700;
+}

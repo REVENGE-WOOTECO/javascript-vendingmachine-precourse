@@ -1,0 +1,12 @@
+#charge-title,
+#product-purchase-title,
+#coin-title {
+  margin: 30px 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+#charge-amount-label,
+#charge-amount {
+  font-size: 16px;
+  font-weight: 700;
+}
